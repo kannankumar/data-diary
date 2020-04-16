@@ -478,6 +478,10 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .highlight .gd { color: #ff5555; }
 
+/** styles for Site Title on Navbar [START] **/
+.site-title, .site-title:visited { color: white !important; padding: 0 20px !important; background: steelblue !important; }
+
+/** styles for Site Title on Navbar [END] ------------**/
 /** Styles for Post Cards shown on Home [START] **/
 .Box { border: transparent !important; }
 
@@ -485,6 +489,6 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .Box.rounded-1 { border-radius: 7px !important; }
 
-/** Styles for Post Cards shown on Home [END] ------**/
+/** Styles for Post Cards shown on Home [END] ------------**/
 
 /*# sourceMappingURL=style.css.map */
