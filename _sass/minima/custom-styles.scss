@@ -10,6 +10,15 @@
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
 @import "minima/fastpages-dracula-highlight"; 
 
+/** styles for Site Title on Navbar [START] **/
+
+.site-title, .site-title:visited {
+    color: white !important;
+    padding: 0 20px !important;
+    background: steelblue !important;
+}
+
+/** styles for Site Title on Navbar [END] ------------**/
 
 /** Styles for Post Cards shown on Home [START] **/
 
@@ -25,4 +34,4 @@
     border-radius: 7px !important;
 }
 
-/** Styles for Post Cards shown on Home [END] ------**/
+/** Styles for Post Cards shown on Home [END] ------------**/
