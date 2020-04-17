@@ -478,6 +478,15 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .highlight .gd { color: #ff5555; }
 
+/** Post Header **/
+.post-header { margin-bottom: 60px; }
+
+/** Github and Colab buttons - on Post Header**/
+header.post-header div.pb-5 { padding: 0px !important; margin-top: -50px; }
+
+/** Post body text **/
+.post-content p, .post-content li { font-size: 1.06rem !important; line-height: 1.7em; }
+
 /** styles for Site Title on Navbar [START] **/
 .site-title, .site-title:visited { color: white !important; padding: 0 20px !important; background: steelblue !important; }
 
@@ -485,9 +494,13 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 /** Styles for Post Cards shown on Home [START] **/
 .Box { border: transparent !important; }
 
-.Box.box-shadow-medium { box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1) !important; }
+.Box.box-shadow-medium { box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1) !important; }
 
-.Box.rounded-1 { border-radius: 7px !important; }
+.Box.rounded-1 { border-radius: 10px !important; }
+
+.Box > .col-4 { padding: 0 !important; }
+
+.Box .image-preview { border-radius: 10px 0px 0px 10px !important; }
 
 /** Styles for Post Cards shown on Home [END] ------------**/
 
