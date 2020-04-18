@@ -478,17 +478,27 @@ table td { text-overflow: ellipsis; overflow: hidden; max-width: 15em; }
 
 .highlight .gd { color: #ff5555; }
 
+/** links **/
+a { color: #007bff; }
+
+a:visited { color: #007bff; }
+
+pre, code { color: #007aff; background-color: #f1f7fe; border: 1px solid #edf3f8; }
+
 /** Post Header **/
 .post-header { margin-bottom: 60px; }
 
 /** Github and Colab buttons - on Post Header**/
 header.post-header div.pb-5 { padding: 0px !important; margin-top: -50px; }
 
+/** Post title **/
+.post-title, .post-content h1, .post-content h2, .post-content h3 { color: #535b61; }
+
 /** Post body text **/
 .post-content p, .post-content li { font-size: 1.06rem !important; line-height: 1.7em; }
 
 /** styles for Site Title on Navbar [START] **/
-.site-title, .site-title:visited { color: white !important; padding: 0 20px !important; background: steelblue !important; }
+.site-title, .site-title:visited { color: #007bff !important; padding: 0 20px !important; background: rgba(0, 123, 255, 0.0627451) !important; }
 
 /** styles for Site Title on Navbar [END] ------------**/
 /** Styles for Post Cards shown on Home [START] **/
