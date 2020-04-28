@@ -20,35 +20,6 @@ a:visited {
     color: #007bff;
 }
 
-pre, code{
-    color: rgb(0, 122, 255);
-    background-color: #f1f7fe;
-    border: 1px solid #edf3f8;
-//     color: rgba(32,26,162,.8);
-//     background: rgba(32,26,162,.12549);
-}
-
-/** Post Header **/
-.post-header {
-    margin-bottom: 60px;
-}
-
-/** Github and Colab buttons - on Post Header**/
-header.post-header div.pb-5 {
-    padding: 0px !important;
-    margin-top:-50px;
-}
-
-/** Post title **/
-.post-title, .post-content h1, .post-content h2, .post-content h3 {
-    color: #535b61;
-}
-/** Post body text **/
-.post-content p, .post-content li {
-    font-size: 1.06rem !important;
-    line-height: 1.7em;
-}
-
 /** styles for Site Title on Navbar [START] **/
 
 .site-title, .site-title:visited {
@@ -61,24 +32,60 @@ header.post-header div.pb-5 {
 
 /** Styles for Post Cards shown on Home [START] **/
 
+// Make Post list on Home page stretch wider
+@media screen and (min-width: 800px){
+    .wrapper {
+        max-width: calc(1024px - (30px * 2)) !important;
+    }
+    .post{
+        width:calc(800px - 30px);
+        margin: auto
+    }
+}
+
+// Remove default border from Post Card and add only a separator below
 .Box {    
     border: transparent !important;
+    border-bottom: 1px solid #e7e7e7 !important;
 }
 
-.Box.box-shadow-medium {
-    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1) !important;
-}
-
-.Box.rounded-1 {
-    border-radius: 10px !important;
-}
-
-.Box>.col-4{
-    padding:0 !important;
-}
-.Box .image-preview{
-    border-radius: 10px 0px 0px 10px !important;
-}
 /** Styles for Post Cards shown on Home [END] ------------**/
 
+/** Styles for Post Article page [START] **/
+
+// Post Header
+.post-header {
+    margin-bottom: 60px;
+}
+
+// Post Header - Title
+.post-title, .post-content h1, .post-content h2, .post-content h3 {
+    color: #535b61;
+}
+
+// Post Header - Github and Colab buttons 
+header.post-header div.pb-5 {
+    padding: 0px !important;
+    margin-top:-50px;
+}
+
+// Post Body - Text
+.post-content p, .post-content li {
+    font-size: 1.06rem !important;
+    line-height: 1.7em;
+}
+
+// Post Body - Code block
+.text_cell_render pre,.text_cell_render code{
+    color: rgb(0, 122, 255);
+    background-color: #f1f7fe;
+    border: 1px solid #edf3f8;
+}
+
+// Post Body - Code Output block
+.output_area pre, .output_area code{
+    color: rgb(42, 51, 62);
+    background-color: #e2e2e2;
+    border: 1px solid #edf3f8;
+}
 
