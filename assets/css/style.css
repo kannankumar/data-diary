@@ -483,35 +483,30 @@ a { color: #007bff; }
 
 a:visited { color: #007bff; }
 
-pre, code { color: #007aff; background-color: #f1f7fe; border: 1px solid #edf3f8; }
-
-/** Post Header **/
-.post-header { margin-bottom: 60px; }
-
-/** Github and Colab buttons - on Post Header**/
-header.post-header div.pb-5 { padding: 0px !important; margin-top: -50px; }
-
-/** Post title **/
-.post-title, .post-content h1, .post-content h2, .post-content h3 { color: #535b61; }
-
-/** Post body text **/
-.post-content p, .post-content li { font-size: 1.06rem !important; line-height: 1.7em; }
-
 /** styles for Site Title on Navbar [START] **/
 .site-title, .site-title:visited { color: #007bff !important; padding: 0 20px !important; background: rgba(0, 123, 255, 0.0627451) !important; }
 
 /** styles for Site Title on Navbar [END] ------------**/
 /** Styles for Post Cards shown on Home [START] **/
-.Box { border: transparent !important; }
+@media screen and (min-width: 800px) { .wrapper { max-width: calc(1024px - (30px * 2)) !important; }
+  .post { width: calc(800px - 30px); margin: auto; } }
 
-.Box.box-shadow-medium { box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1) !important; }
+.Box { border: transparent !important; border-bottom: 1px solid #e7e7e7 !important; }
 
-.Box.rounded-1 { border-radius: 10px !important; }
-
-.Box > .col-4 { padding: 0 !important; }
-
-.Box .image-preview { border-radius: 10px 0px 0px 10px !important; }
+.Box .image-preview { max-height: 150px; width: 300px; object-fit: cover; }
 
 /** Styles for Post Cards shown on Home [END] ------------**/
+/** Styles for Post Article page [START] **/
+.post-header { margin-bottom: 60px; }
+
+.post-title, .post-content h1, .post-content h2, .post-content h3 { color: #535b61; }
+
+header.post-header div.pb-5 { padding: 0px !important; margin-top: -50px; }
+
+.post-content p, .post-content li { font-size: 1.06rem !important; line-height: 1.7em; }
+
+.text_cell_render pre, .text_cell_render code { color: #007aff; background-color: #f1f7fe; border: 1px solid #edf3f8; }
+
+.output_area pre, .output_area code { color: #2a333e; background-color: #e2e2e2; border: 1px solid #edf3f8; }
 
 /*# sourceMappingURL=style.css.map */
