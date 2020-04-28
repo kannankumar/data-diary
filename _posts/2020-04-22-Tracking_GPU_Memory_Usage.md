@@ -6,7 +6,7 @@ toc: true
 badges: true
 comments: true
 categories: [jupyter, deep-learning]
-image: images/chart-preview.png
+image: images/copied_from_nb/nb_assets/undraw_server_cluster.png
 label: Ops
 nb_path: _notebooks/2020-04-22-Tracking_GPU_Memory_Usage.ipynb
 layout: notebook
@@ -30,16 +30,10 @@ layout: notebook
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://colab.research.google.com/github/kannankumar/jupyter-notebooks/blob/master/Tracking_GPU_Memory_Usage.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <p>The most amazing thing about Collaboratory (or Google's generousity) is that there's also GPU option available.</p>
 <p>In this short notebook we look at how to track GPU memory usage.</p>
-<p>This notebook has been divided into sections.
+<p><img src="/data-diary/images/copied_from_nb/nb_assets/undraw_server_cluster.png" alt="GPU Stats screenshot">
+This notebook has been divided into sections.
 Feel free to skip the sections which you are already familar with.</p>
 <hr>
 <p><strong>Footnote</strong>: <em>This notebook is a fork of <a href="https://colab.research.google.com/drive/1P7okDVh6viCIOkii6UAF2O9sTAcKGNWq">a great Colab notebook</a> and it is edited for my personal reference.</em></p>

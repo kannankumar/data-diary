@@ -5,7 +5,7 @@ description: A minimal example of using markdown with fastpages.
 categories: [markdown]
 title: An Example Markdown Post
 label: Template
-image: images/fashion_mnist_cover.png
+image: images/md_assets/undraw_learning.png
 ---
 # Example Markdown Post
 
@@ -49,7 +49,7 @@ And a numbered list:
 
 ## Images
 
-![]({{ site.baseurl }}/images/logo.png "fast.ai's logo")
+![]({{ site.baseurl }}/md_assets/undraw_learning.png "fast.ai's logo")
 
 ## Code
 
