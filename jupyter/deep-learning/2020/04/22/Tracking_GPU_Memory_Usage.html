@@ -67,6 +67,11 @@ window.onload = wrap_img;
     elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
     });
 </script>
+
+
+
+<script src="https://unpkg.com/applause-button/dist/applause-button.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css"/>
 </head><body><header class="site-header">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/data-diary/">K</a><nav class="site-nav">
@@ -630,6 +635,23 @@ GPU 0 ... Mem Free: 11058MB / 11441MB | Utilization   3%
 
 
 
+
+    <div class="position-lg-fixed left-9 bottom-12 mb-6 pb-6 hide-sm hide-md hide-lg">      
+        <applause-button multiclap=true color="#007aff" style="width: 40px; height: 40px;"></applause-button>    
+    </div>
+
+    <div class="container-lg col-12 hide-xl border border-blue rounded-2 bg-blue-light p-5 mt-3">
+      <div class="d-inline-flex ">
+        <div class="float-left mt-1">
+          <applause-button multiclap=true color="#007aff" style="width: 40px; height: 40px;"></applause-button>
+        </div>
+        <div class="pl-6 text-blue">
+          If you liked this post, don't forget to let me know with the claps. <br/>
+          If you have comments or suggestions, feel free to post them below.
+        </div>
+      </div>
+    </div>
+    
   </div><!-- from https://github.com/utterance/utterances -->
 <script src="https://utteranc.es/client.js"
         repo="kannankumar/data-diary"

@@ -509,4 +509,9 @@ header.post-header div.pb-5 { padding: 0px !important; margin-top: -50px; }
 
 .output_area pre, .output_area code { color: #2a333e; background-color: #e2e2e2; border: 1px solid #edf3f8; }
 
+/*******************************************/
+/**          Applause Button style       ***/
+/*******************************************/
+applause-button .count-container { top: -50% !important; color: #007aff !important; }
+
 /*# sourceMappingURL=style.css.map */
